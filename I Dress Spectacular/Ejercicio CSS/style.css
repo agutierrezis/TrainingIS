@@ -1,0 +1,92 @@
+body {
+	background-color: #333333;
+}
+
+h1 {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #333333;
+	text-align: center;
+	background-color: #CCCCCC;
+	border: .125rem solid black;
+}
+
+
+.grid {
+	border: .125rem solid;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+
+.fb-box {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	margin: 2%;
+	background-color: #3333D6;
+	color: white;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+.tw-box {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	margin: 2%;
+	background-color: #5C85FF;
+	color: white;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+.ig-box {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	margin: 2%;
+	background-color: #8A5C2E;
+	color: white;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+#fbImg {
+    background: url('social.png') no-repeat 0 98.81%;
+    background-size: 121px 75px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+}
+
+#fbImg:hover {
+	background-position: 0 0;
+}
+
+#twImg {
+    background: url('social.png') no-repeat 99.432% 92%;
+    background-size: 121px 75px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+}
+
+#twImg:hover {
+	background-position: 99.432% 9%;
+}
+
+#igImg {
+    background: url('social.png') no-repeat 51.136% 100%;
+    background-size: 121px 75px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+}
+
+#igImg:hover {
+	background-position: 51.136% 1.19%;
+}
