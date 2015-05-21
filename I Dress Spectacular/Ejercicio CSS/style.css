@@ -1,66 +1,92 @@
 body {
-	background-color: #333333;
+	width: 80%;
+	border: .125rem solid black;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h1 {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	color: #333333;
 	text-align: center;
-	background-color: #CCCCCC;
-	border: .125rem solid black;
+	font-family: Arial;
 }
 
 
 .grid {
-	border: .125rem solid;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #CCCCCC;
-	text-align: center;
+	width: 90%;
+	margin: 5% auto 5% auto;
+	display: table;
 }
 
 .fb-box {
 	display: inline-block;
-	width: 25%;
+	vertical-align: top;
 	height: 100%;
-	margin: 2%;
+	width: 20%;
 	background-color: #3333D6;
 	color: white;
-	border: 1px solid black;
-	vertical-align: top;
+	font-family: 'Poiret One', serif;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.fb-box p {
+	height: 75%;
+}
+
+.fb-box a {
+	height: 25%;
 }
 
 .tw-box {
 	display: inline-block;
-	width: 25%;
+	vertical-align: top;
 	height: 100%;
-	margin: 2%;
+	width: 20%;
+	margin: auto 17% auto 17%;
 	background-color: #5C85FF;
 	color: white;
-	border: 1px solid black;
-	vertical-align: top;
+	font-family: 'Play', serif;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.tw-box p {
+	height: 75%;
+}
+
+.tw-box a {
+	height: 25%;
 }
 
 .ig-box {
 	display: inline-block;
-	width: 25%;
+	vertical-align: top;
 	height: 100%;
-	margin: 2%;
+	width: 20%;
 	background-color: #8A5C2E;
 	color: white;
-	border: 1px solid black;
-	vertical-align: top;
+	font-family: 'Coming Soon', serif;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.ig-box p {
+	height: 75%;
+}
+
+.ig-box a {
+	height: 25%;
+	vertical-align: bottom;
 }
 
 #fbImg {
     background: url('social.png') no-repeat 0 98.81%;
     background-size: 121px 75px;
-    width: 33px;
-    height: 33px;
-    display: inline-block;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 5% auto 5% auto;
+    vertical-align: bottom;
 }
 
 #fbImg:hover {
@@ -71,8 +97,11 @@ h1 {
     background: url('social.png') no-repeat 99.432% 92%;
     background-size: 121px 75px;
     width: 33px;
-    height: 33px;
-    display: inline-block;
+    height: 25px;
+    position: center;
+    display: block;
+    margin: 5% auto 5% auto;
+    vertical-align: bottom;
 }
 
 #twImg:hover {
@@ -84,7 +113,9 @@ h1 {
     background-size: 121px 75px;
     width: 33px;
     height: 33px;
-    display: inline-block;
+    display: block;
+    margin: 5% auto 5% auto;
+    vertical-align: bottom;
 }
 
 #igImg:hover {
