@@ -1,0 +1,100 @@
+.container {
+	width: 80%;
+	position: relative;
+	margin: auto;
+	border: .125rem solid black;
+}
+
+.title {
+	text-align: center;
+}
+
+.row {
+}
+
+.col {
+	float: center;
+	color: white;
+	width: 90%;
+	margin: 5% auto 5% auto;
+	padding: 3%;
+}
+
+.col-fb {
+	background-color: #3333D6;
+	font-family: 'Poiret One', serif;
+}
+
+.txt-fb {
+	height: 10em;
+}
+
+.col-tw {
+	background-color: #5C85FF;
+	font-family: 'Play', serif;
+}
+
+.txt-tw {
+	height: 11em;
+}
+
+.col-ig {
+	background-color: #8A5C2E;
+	font-family: 'Coming Soon', serif;
+}
+
+.txt-ig {
+	height: 10em;
+}
+
+.img {
+	background-image: url('../images/social.png');
+	background-repeat: no-repeat;
+    display: block;
+    margin: 5% auto 5% auto;
+}
+
+.fb-img {
+    background-position: 0 -83px;
+    width: 66px;
+    height: 66px;
+}
+
+.fb-img:hover {
+	background-position: 0 0;
+}
+
+.tw-img {
+    background-position: -175px -92px;
+    width: 66px;
+    height: 50px;
+}
+
+.tw-img:hover {
+	background-position: -175px -9px;
+}
+
+.ig-img {
+    background-position: -90px -84px;
+    width: 66px;
+    height: 66px;
+}
+
+.ig-img:hover {
+	background-position: -90px -1px;
+}
+
+@media screen and ( max-width: 767px ) {
+	.col-fb {
+		background-color: #27782d;
+	}
+
+	.col-tw {
+		background-color: #f42929;
+	}
+
+	.col-ig {
+		background-color: #782740;
+	}
+
+}
