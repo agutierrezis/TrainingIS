@@ -97,4 +97,45 @@
 		background-color: #782740;
 	}
 
+	.txt-fb {
+		height: 13em;
+	}
+
+	.txt-tw {
+		height: 14em;
+	}
+
+	.txt-ig {
+		height: 13em;
+	}
+
+	.fb-img {
+		background-position: 0 -41px;
+	    background-size: 121px 75px;
+	    width: 33px;
+	    height: 33px;
+	}
+
+	.tw-img {
+		background-position: -87px -46px;
+	    background-size: 121px 75px;
+	    width: 33px;
+	    height: 25px;
+	}
+
+	.tw-img:hover {
+		background-position: -87px -5px;
+	}
+
+	.ig-img {
+		background-position: -45px -42px;
+	    background-size: 121px 75px;
+	    width: 33px;
+	    height: 33px;
+	}
+
+	.ig-img:hover {
+		background-position: -45px 0;
+	}
+
 }
