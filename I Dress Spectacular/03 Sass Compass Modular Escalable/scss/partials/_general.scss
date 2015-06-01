@@ -1,0 +1,93 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _general.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        27/05/2015
+// * Description: General partial. Add here all the classes and font-face that
+//                are used throughout the site.
+// 
+
+
+.top-line {
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 82%;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 3em;
+}
+
+.menu-container {
+    float: right;
+}
+
+.normal-text {
+    @include font-def ($font-size: $font-normal-size);
+    line-height: 1.7em;
+}
+
+.images-container {
+    padding-bottom: 2em;
+    @include line($top-width: 0);
+}
+
+.col-custom {
+    padding-right: 1.5em;
+}
+
+.image-border {
+    border: solid 1px;
+    border-color: $grey-line;
+    padding: 2%;
+}
+
+.btn-custom {
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+
+    &:hover {
+        background-color: $grey-font;
+        color: white;
+    }
+}
+
+.row-line {
+    padding-bottom: 1em;
+    @include line($top-width: 0);
+}
+
+.quote-container {
+    margin: 3em 1em 3em 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $grey-line;
+    padding: 1em 2em;
+    background-color: $quote-container-color;
+}
+
+.quote-text {
+    @include font-def($font-size: $font-quote-size, $font-family: $font-quote, $font-color: $red-font);
+    font-weight: bold;
+    line-height: 1.7em;
+}
+
+.footer-content {
+    text-align: right;
+}
+
+.footer-author {
+    text-align: center;
+}

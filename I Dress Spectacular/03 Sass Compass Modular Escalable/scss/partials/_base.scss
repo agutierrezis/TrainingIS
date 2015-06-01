@@ -1,0 +1,41 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _base.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        27/05/2015
+// * Description: Base partial. Put here all the code that doesnt compile to css directly. (params, mixins, etc)
+// 
+
+$font-regular: Verdana, Arial, sans;
+$font-quote: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$font-normal-size: 14px;
+$font-menu-size: 17px;
+$font-h1-size: 40px;
+$font-h1-span-size: 25px;
+$font-h2-size: $font-normal-size;
+$font-h3-size: 22px;
+$font-h4-size: 20px;
+$font-h5-size: $font-normal-size;
+$font-quote-size: 15px;
+$grey-font: #666666;
+$grey-menu-hover: #949494;
+$red-font: #CC3333;
+$grey-line: #C8C8C8;
+$quote-container-color: #EDEDED;
+
+@mixin line($line-color: $grey-line, $top-width: 1px, $bottom-width: 1px) {
+	border-top: solid $top-width $line-color;
+	border-bottom: solid $bottom-width $line-color;
+}
+
+@mixin font-def ($font-size, $font-family: $font-regular, $font-color: $grey-font) {
+	font-size: $font-size;
+	font-family: $font-family;
+	color: $font-color;
+}

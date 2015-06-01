@@ -1,0 +1,44 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _content.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        27/05/2015
+// * Description: Content partial. Add here all the classes for the content
+//                of the site, divided by section.
+// 
+
+h1 {
+	@include font-def($font-size: $font-h1-size);
+	margin-top: 1em;
+
+	span {
+		font-size: $font-h1-span-size;
+	}
+}
+
+h2 {
+	@include font-def($font-size: $font-h2-size);
+	margin-top: 1.5em;
+}
+
+h3 {
+	@include font-def($font-size: $font-h3-size, $font-color: $red-font);
+    margin-top: 2em;
+}
+
+h4 {
+	@include font-def($font-size: $font-h4-size, $font-color: $red-font);
+	margin-top: 1.3em;
+}
+
+h5 {
+	@include font-def($font-size: $font-h5-size);
+	margin-top: 1.3em;
+	font-weight: bold;
+}

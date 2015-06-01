@@ -1,0 +1,87 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _header.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        27/05/2015
+// * Description: Header partial. Add here all the classes for the header
+//                of the site.
+// 
+
+nav {
+    float: left;
+    width: 540px;
+    top: 35px;
+    right: 3px;
+    @include line;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            float: left;
+            margin-left: 12px;
+
+            a {
+                @include font-def($font-size: $font-menu-size);
+                display: block;
+                padding-bottom: 10px;
+                padding-top: 5px;
+                margin-top: 5px;
+                margin-right: 6px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $grey-menu-hover;
+                    text-decoration: none;
+                }
+
+                &:active, &:link {
+                    text-decoration: none;
+                    color: $grey-font;
+                }
+            }
+        }
+    }
+}
+
+// nav {
+//     float: left;
+//     @include line;
+
+//     ul {
+//         list-style: none;
+//         text-align: left;
+
+//         li {
+//             float: left;
+//             margin-left: 12px;
+
+//             a {
+//                 @include font-def($font-size: $font-menu-size);
+//                 display: block;
+//                 padding-bottom: 10px;
+//                 padding-top: 5px;
+//                 margin-top: 5px;
+//                 margin-right: 6px;
+//                 text-decoration: none;
+
+//                 &:hover {
+//                     color: $grey-menu-hover;
+//                     text-decoration: none;
+//                 }
+
+//                 &:active, &:link {
+//                     text-decoration: none;
+//                     color: $grey-font;
+//                 }
+//             }
+//         }
+//     }
+// }

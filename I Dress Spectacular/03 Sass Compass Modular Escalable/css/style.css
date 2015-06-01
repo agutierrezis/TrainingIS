@@ -1,0 +1,316 @@
+/*!
+ * All Rights Reserved
+ * This software is proprietary information of
+ * Intelligent Sense
+ * Use is subject to license terms.
+ * Filename: style.scss
+ */
+/*
+ * Author:      agutierrez@intelligentsense.com
+ * Date:        27/05/2015
+ * Description: Main COMPASS file. Import all the partials you need here.
+ */
+/* line 17, ../scss/partials/_general.scss */
+.top-line {
+  background-color: black;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+/* line 24, ../scss/partials/_general.scss */
+.container {
+  width: 82%;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 3em;
+}
+
+/* line 32, ../scss/partials/_general.scss */
+.menu-container {
+  float: right;
+}
+
+/* line 36, ../scss/partials/_general.scss */
+.normal-text {
+  font-size: 14px;
+  font-family: Verdana, Arial, sans;
+  color: #666666;
+  line-height: 1.7em;
+}
+
+/* line 41, ../scss/partials/_general.scss */
+.images-container {
+  padding-bottom: 2em;
+  border-top: solid 0 #C8C8C8;
+  border-bottom: solid 1px #C8C8C8;
+}
+
+/* line 46, ../scss/partials/_general.scss */
+.col-custom {
+  padding-right: 1.5em;
+}
+
+/* line 50, ../scss/partials/_general.scss */
+.image-border {
+  border: solid 1px;
+  border-color: #C8C8C8;
+  padding: 2%;
+}
+
+/* line 56, ../scss/partials/_general.scss */
+.btn-custom {
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+}
+/* line 61, ../scss/partials/_general.scss */
+.btn-custom:hover {
+  background-color: #666666;
+  color: white;
+}
+
+/* line 67, ../scss/partials/_general.scss */
+.row-line {
+  padding-bottom: 1em;
+  border-top: solid 0 #C8C8C8;
+  border-bottom: solid 1px #C8C8C8;
+}
+
+/* line 72, ../scss/partials/_general.scss */
+.quote-container {
+  margin: 3em 1em 3em 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C8C8C8;
+  padding: 1em 2em;
+  background-color: #EDEDED;
+}
+
+/* line 81, ../scss/partials/_general.scss */
+.quote-text {
+  font-size: 15px;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  color: #CC3333;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+/* line 87, ../scss/partials/_general.scss */
+.footer-content {
+  text-align: right;
+}
+
+/* line 91, ../scss/partials/_general.scss */
+.footer-author {
+  text-align: center;
+}
+
+/* line 16, ../scss/partials/_header.scss */
+nav {
+  float: left;
+  width: 540px;
+  top: 35px;
+  right: 3px;
+  border-top: solid 1px #C8C8C8;
+  border-bottom: solid 1px #C8C8C8;
+}
+/* line 23, ../scss/partials/_header.scss */
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 27, ../scss/partials/_header.scss */
+nav ul li {
+  float: left;
+  margin-left: 12px;
+}
+/* line 31, ../scss/partials/_header.scss */
+nav ul li a {
+  font-size: 17px;
+  font-family: Verdana, Arial, sans;
+  color: #666666;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+/* line 40, ../scss/partials/_header.scss */
+nav ul li a:hover {
+  color: #949494;
+  text-decoration: none;
+}
+/* line 45, ../scss/partials/_header.scss */
+nav ul li a:active, nav ul li a:link {
+  text-decoration: none;
+  color: #666666;
+}
+
+/* line 15, ../scss/partials/_footer.scss */
+footer {
+  position: relative;
+  height: 90px;
+  width: 100%;
+  background-image: url("images/footer.png");
+  background-position: left top;
+  background-repeat: repeat-x;
+  background-color: black;
+  padding-top: 2em;
+  color: white;
+}
+/* line 26, ../scss/partials/_footer.scss */
+footer a {
+  text-decoration: underline;
+  color: #666666;
+  font-size: 14px;
+  font-height: 1.7em;
+}
+/* line 32, ../scss/partials/_footer.scss */
+footer a:hover {
+  color: #666666;
+}
+
+/* line 16, ../scss/partials/_content.scss */
+h1 {
+  font-size: 40px;
+  font-family: Verdana, Arial, sans;
+  color: #666666;
+  margin-top: 1em;
+}
+/* line 20, ../scss/partials/_content.scss */
+h1 span {
+  font-size: 25px;
+}
+
+/* line 25, ../scss/partials/_content.scss */
+h2 {
+  font-size: 14px;
+  font-family: Verdana, Arial, sans;
+  color: #666666;
+  margin-top: 1.5em;
+}
+
+/* line 30, ../scss/partials/_content.scss */
+h3 {
+  font-size: 22px;
+  font-family: Verdana, Arial, sans;
+  color: #CC3333;
+  margin-top: 2em;
+}
+
+/* line 35, ../scss/partials/_content.scss */
+h4 {
+  font-size: 20px;
+  font-family: Verdana, Arial, sans;
+  color: #CC3333;
+  margin-top: 1.3em;
+}
+
+/* line 40, ../scss/partials/_content.scss */
+h5 {
+  font-size: 14px;
+  font-family: Verdana, Arial, sans;
+  color: #666666;
+  margin-top: 1.3em;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 870px) {
+  /* line 32, ../scss/partials/_media-queries.scss */
+  .menu-container {
+    float: none;
+  }
+
+  /* line 36, ../scss/partials/_media-queries.scss */
+  nav {
+    width: 100%;
+    border-top: solid 0 #C8C8C8;
+    border-bottom: solid 0 #C8C8C8;
+  }
+  /* line 39, ../scss/partials/_media-queries.scss */
+  nav ul {
+    margin-top: 2em;
+    width: 100%;
+  }
+  /* line 42, ../scss/partials/_media-queries.scss */
+  nav ul li {
+    float: none;
+    margin-left: 0;
+  }
+  /* line 45, ../scss/partials/_media-queries.scss */
+  nav ul li a {
+    border-top: solid 0 #C8C8C8;
+    border-bottom: solid 1px #C8C8C8;
+  }
+
+  /* line 52, ../scss/partials/_media-queries.scss */
+  h1 {
+    margin-top: 9em;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+@media only screen and (max-width: 1224px) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* Retina Display ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* ============
+      WIDE: Main
+     ============ */
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+}
+/* ==========================================================================
+   Print styles
+   ========================================================================== */

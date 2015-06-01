@@ -1,0 +1,36 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _footer.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        29/05/2015
+// * Description: Footer partial. Add here the classes for the footer of the site.
+// 
+
+footer {
+	position: relative;
+	height: 90px;
+	width: 100%;
+	background-image: url('images/footer.png');
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-color: black;
+	padding-top: 2em;
+	color: white;
+
+	a {
+		text-decoration: underline;
+		color: $grey-font;
+		font-size: $font-normal-size;
+		font-height: 1.7em;
+
+		&:hover {
+			color: $grey-font;
+		}
+	}
+}

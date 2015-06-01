@@ -1,0 +1,138 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _media-queries.scss
+//
+
+// *
+// * Author:      agutierrez@intelligentsense.com
+// * Date:        29/05/2015
+// * Description: Media queries partial. Add here all the media queries
+//                
+// 
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+   /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 870px) {
+  .menu-container {
+    float: none;
+  }
+
+  nav {
+    width: 100%;
+    @include line($top-width: 0, $bottom-width: 0);
+    ul {
+      margin-top: 2em;
+      width: 100%;
+      li {
+        float: none;
+        margin-left: 0;
+        a {
+          @include line($top-width: 0);
+        }
+      }
+    }
+  }
+
+  h1 {
+    margin-top: 9em;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+   /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+   /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   /* Styles */
+}
+
+@media only screen and (max-width : 1224px) {
+   /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+   
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+   /* Styles */
+}
+
+/* Retina Display ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+   /* Styles */
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    // nav ul li {
+    //     display: inline;
+    // }
+
+    // .oldie nav a {
+    //     margin: 0 0.7%;
+    // }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+/* ============
+    WIDE: Main
+   ============ */
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    
+}
