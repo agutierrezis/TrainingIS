@@ -1,0 +1,108 @@
+//
+// * All Rights Reserved
+// * This software is proprietary information of
+// * Intelligent Sense
+// * Use is subject to license terms.
+// * Filename: _general.scss
+//
+
+// *
+// * Author:      kchaves@intelligentsense.com
+// * Date:        28/10/2013
+// * Description: General partial. Add here all the classes and font-face that
+//                are used throughout the site.
+// 
+
+
+/* ===================
+    ALL: Fonts
+   =================== */
+@font-face {
+   font-family: 'IntelligentSense';
+   src: url('fonts/tgl-31034-1-normschrift.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.artist-container {
+    margin-bottom: 2em;
+    border: solid 3px;
+}
+
+.custom-position {
+    position: absolute;
+    color: #337AB7;
+    font-size: 3em;
+    font-weight: bold;
+    left: 80%;
+    top: 1em;
+    width: 100%;
+}
+
+.custom-button {
+    width: 80%;
+    margin: -62px auto 0 2em;
+}
+
+.row-same-height {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.col-sm-height {
+    display: table-cell;
+    float: none !important;
+}
+
+.info-col {
+    border: solid 1px;
+    float: center;
+}
+
+.central-row {
+    margin-top: 18%;
+}
+
+.bottom-row {
+    margin-top: 18%;
+}
+
+.show-img {
+    width: 103%;
+}
+
+.hide-img {
+    width: 36.2%;
+}
